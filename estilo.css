@@ -18,14 +18,9 @@ input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
 .centro {
   width: 99%;
 }
-@media (min-width: 768px) and (max-width: 990px) {
-    .centro {
-        display: none;
-    }
-}
 
-@media (max-width: 767px) {
-  .centro{
+@media (min-width: 991px) {
+  .centro {
       display: none;
   }
 }
